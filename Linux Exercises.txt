@@ -1,0 +1,86 @@
+Task 1
+
+cd Desktop/
+mkdir myProject
+cd myProject/
+touch app.js
+cd ..
+mkdir myProject2
+cp ~/Desktop/myProject/app.js ~/Desktop/myProject2 
+cd myProject2/
+ls 
+
+Task 2 
+
+cd ~/ 
+cd .. 
+sudo touch exercise.txt 
+sudo mv exercise.txt source /tmp
+cd /tmp
+ls
+cd ~ 
+cd ..
+sudo rm /tmp/exercise.txt 
+cd /tmp 
+ls 
+
+Task 3 
+
+cd ~/
+touch umuzi.txt recruits.txt cohort.txt
+cat > cohort.txt
+Cohort 14 
+#ctrl + d
+cat > recruits.txt 
+Recruits 
+#ctrl + d 
+cat > umuzi.txt 
+Umuzi 
+#ctrl + d 
+cat cohort.txt recruits.txt umuzi.txt 
+cat cohort.txt recruits.txt umuzi.txt > summary.txt
+cat >> summary.txt 
+
+Task 4 
+
+locate umuzi.txt
+locate umuzi.txt > search_result.txt
+
+Task 5 
+
+cd Documents/
+touch pad.txt
+cd ~/Desktop 
+mkdir work
+cp ~/Documents/pad.txt ~/Desktop/copy_pad.txt
+cd ..
+sudo updatedb
+#enter password 
+cd -
+locate pad_copy.txt
+
+Task 6 
+
+find -iname '*.pdf' -exec cp {} ~/Desktop/work/\; 
+cd work/ 
+ls 
+find ~/ -mtime -1 -print 
+
+Task 10 
+
+nano my_bio.txt
+mkdir my_files 
+mv my_bio.txt my_files
+
+
+
+Task 10 
+
+
+
+
+
+ 
+
+
+
